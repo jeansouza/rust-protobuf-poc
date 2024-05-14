@@ -1,0 +1,7 @@
+syntax = "proto3";
+package test;
+
+enum Who {
+  YOU = 0;
+  WORLD = 1;
+}
