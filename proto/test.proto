@@ -1,0 +1,12 @@
+syntax = "proto3";
+package test;
+
+message GreetingMessage {
+  string greeting = 1;
+  Who who = 2;
+}
+
+enum Who {
+  YOU = 0;
+  WORLD = 1;
+}
